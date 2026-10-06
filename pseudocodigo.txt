@@ -1,0 +1,23 @@
+AnalizadorConsumoEnergetico
+
+    //analisis consumo
+    Si promedio < 8:
+        salida <- "consumo bajo"
+    Sino Si promedio <= 12:
+        salida <- "consumo normal"
+    Sino Si promedio <= 16:
+        salida <- "consumo alto"
+    Sino:
+        salida <- "consumo critico"
+
+    //analisis porcentaje
+    Si porcentaje < 0:
+        salida <- "el consumo disminuyo"
+    Sino Si porcentaje <= 10:
+        salida <- "el consumo aumento ligeramente"
+    Sino Si porcentaje <= 25:
+        salida <- "el consumo aumento considerablemente"
+    Sino:
+        salida <- "alerte: aumento elevado del consumo"
+
+Fin

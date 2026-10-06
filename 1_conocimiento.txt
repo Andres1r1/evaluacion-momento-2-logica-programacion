@@ -1,0 +1,8 @@
+1. ¿Cual es la formula que permite obtener correctamente el promedio?
+B. (600000 + 200000 + 300000)/3
+
+2. ¿Que estructura es mas apropiada?
+A. if/else if/else
+
+3. ¿Cuanto dinero se descuenta?
+C. $40.000
